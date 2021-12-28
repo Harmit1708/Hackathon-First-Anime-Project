@@ -1,0 +1,84 @@
+/* body part */
+body{
+    font-family:verdana;
+    font-size:15px;
+}
+
+
+.container-fluid{
+    background-color:lightgrey;
+}
+
+/* header */
+.header{
+    text-shadow: 1px 1px 8px dodgerblue;
+    margin-top: 10px;
+    text-align: center;
+    align-content: space-around;
+}
+
+/* input search box */
+input[type="search"]{
+    background-color:transparent;
+    font-size:25px;
+    margin-top:20px;
+    width: 20%;
+    border: none;
+    border-bottom:2px solid white;
+    outline: none;
+    margin-bottom:20px;
+    height: 40px;
+    gap:0.5em;
+}
+
+
+/* input search box focus */
+input:focus{
+    background-color:transparent;
+    padding: 0.2em;
+    font-size:25px;
+    margin-top:20px;
+    width: 20%;
+    border: none;
+    border-bottom:2px solid black;
+    outline: none;
+    margin-bottom:20px;
+    height: 40px;
+}
+
+/* input box placeholder */
+::placeholder{
+    font-family: monospace;
+    color: white;
+}
+
+/* image */
+img{
+    height:400px;
+    width:300px;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:1em;
+    gap: 2em;
+    margin: 1em auto;
+}
+.setdata{
+    background: linear-gradient(to right, #537895    0%, #09203F  100%);
+    border-radius: 15px;
+    margin-top:20px;
+    margin: 0 auto;
+    color: white;
+    height:700px;
+    width:350px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:1em;
+    flex-direction: column;
+}
