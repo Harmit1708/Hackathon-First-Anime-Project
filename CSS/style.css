@@ -21,7 +21,7 @@ body{
 input[type="search"]{
     background-color:transparent;
     font-size:25px;
-    min-width:160px;
+    min-width:170px;
     margin-top:20px;
     width: 20%;
     border: none;
@@ -50,7 +50,7 @@ input:focus{
 /* input box placeholder */
 ::placeholder{
     font-family: monospace;
-    min-width:160px;
+    min-width:170px;
     color: white;
 }
 
